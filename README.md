@@ -1,4 +1,4 @@
-# Luxoro Finance Dashboard UI 📈
+# Finance Dashboard UI 📈
 
 A modern, responsive, and completely frontend-driven Finance Dashboard application. Built to demonstrate high-quality React engineering utilizing advanced theming, localized global state, and dynamic data visualization.
 
