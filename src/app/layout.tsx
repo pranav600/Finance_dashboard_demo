@@ -50,8 +50,15 @@ export default function RootLayout({
             <Sidebar />
             <div className="flex flex-col flex-1 min-w-0 overflow-hidden">
               <Navbar />
-              <main className="flex-1 overflow-y-auto bg-background p-4 md:p-8">
-                {children}
+              <main className="flex-1 overflow-y-auto bg-background">
+                <div className="flex flex-col min-h-full p-4 md:p-8">
+                  <div className="flex-1">
+                    {children}
+                  </div>
+                  <footer className="w-full mt-auto pt-12 pb-2 text-center text-sm text-foreground/40 font-medium">
+                    Developed by Pranav Joshi
+                  </footer>
+                </div>
               </main>
             </div>
           </div>
